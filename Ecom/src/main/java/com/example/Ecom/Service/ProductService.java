@@ -1,6 +1,7 @@
 package com.example.Ecom.Service;
 
 import com.example.Ecom.Entity.Product;
+import com.example.Ecom.Exception.ProductNotFoundException;
 import com.example.Ecom.Repositiory.ProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -22,13 +23,15 @@ public class ProductService {
     public ResponseEntity<Product> getById(String id) {
         Optional<Product> product = productRepo.findById(id);
         return product.map(p -> new ResponseEntity<>(p, HttpStatus.OK))
-                .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
+                .orElseGet(() ->{
+                    throw new ProductNotFoundException("Product Not found with id "+id);
+                });
     }
     public ResponseEntity<String> updateProduct(Product updatedProd, String prodId) {
         Optional<Product> opExistingProduct = productRepo.findById(prodId);
 
         if (opExistingProduct.isEmpty()) {
-            return new ResponseEntity<>("Product not found with id: " + prodId, HttpStatus.NOT_FOUND);
+            throw new ProductNotFoundException("Product with "+prodId+" not found!");
         }
 
         Product existingProduct = opExistingProduct.get();
@@ -55,7 +58,7 @@ public class ProductService {
     public ResponseEntity<String> removeProduct(String prodId) {
         Optional<Product> optionalProduct=productRepo.findById(prodId);
         if(!optionalProduct.isPresent()){
-            return new ResponseEntity<>("Product is not present",HttpStatus.NOT_FOUND);
+            throw new ProductNotFoundException("Product with "+prodId+" not found");
         }
         Product product=optionalProduct.get();
         productRepo.delete(product);

@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e07ffb9-5add-429b-87d3-2183b278c266" name="Changes" comment="" />
+    <list default="true" id="1e07ffb9-5add-429b-87d3-2183b278c266" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Repositiory/CutomerRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Repositiory/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Repositiory/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/resources/application.properties.example.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,19 +31,26 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2zwamMoZiDusBupwgy8e1dZEePp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EcomApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EcomApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
 </project>

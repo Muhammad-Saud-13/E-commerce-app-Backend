@@ -8,11 +8,10 @@ import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document(collection="Products")
+@Document(collection="products")
 public class Product {
 
     @Id
-    @Indexed(unique = true)
     private String id;
 
     @NonNull

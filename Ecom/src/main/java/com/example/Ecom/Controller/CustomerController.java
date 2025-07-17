@@ -15,7 +15,7 @@ import java.util.List;
 public class CustomerController {
 
     @Autowired
-    private CustomerService customerService;git
+    private CustomerService customerService;
 
     @PostMapping("/add-customer")
     public ResponseEntity<Customer> addNewCustomer(@RequestBody Customer customer) {

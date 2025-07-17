@@ -13,7 +13,6 @@ import java.util.List;
 @Document(collection = "customers")
 public class Customer {
     @Id
-    @Indexed(unique = true)
     private String id;
 
     @NonNull
