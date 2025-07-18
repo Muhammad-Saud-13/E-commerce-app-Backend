@@ -1,5 +1,6 @@
 package com.example.Ecom.Service;
 
+import com.example.Ecom.Controller.DiscountClient;
 import com.example.Ecom.Entity.Customer;
 import com.example.Ecom.Entity.Product;
 import com.example.Ecom.Exception.CustomerNotFoundException;
@@ -23,6 +24,9 @@ public class CustomerService {
     private CustomerRepo customerRepo;
     @Autowired
     private ProductRepo productRepo;
+    @Autowired
+    private DiscountClient discountClient;
+
 
     public Customer save(Customer customer){
         customerRepo.save(customer);
@@ -53,7 +57,17 @@ public class CustomerService {
         customerRepo.save(customer);
         productRepo.save(product);
 
-        return new ResponseEntity<>("Purchased!", HttpStatus.ACCEPTED);
+        List<String> purchasedProducts=customer.getPurchasedProductIds();
+        double discount=discountClient.calculateDiscount(purchasedProducts);
+        double discountedPrice=(product.getPrice())* discount;
+        double finalPrice=product.getPrice()-discountedPrice;
+        String msg = String.format(
+                "Purchased!\nProduct: %s\nOriginal Price: %.2f\nDiscount: %.0f%%\nFinal Price: %.2f",
+                product.getName(), product.getPrice(), discount * 100, finalPrice
+        );
+
+
+        return new ResponseEntity<>(msg, HttpStatus.ACCEPTED);
     }
 
     public ResponseEntity<List<Product>> getAllItems(String id){
