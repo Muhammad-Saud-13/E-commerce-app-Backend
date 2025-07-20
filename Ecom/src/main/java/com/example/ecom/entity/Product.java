@@ -1,10 +1,8 @@
-package com.example.Ecom.Entity;
+package com.example.ecom.entity;
 
 import lombok.Data;
-import lombok.Getter;
 import lombok.NonNull;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data

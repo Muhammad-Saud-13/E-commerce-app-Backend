@@ -1,0 +1,2 @@
+17:45:12.934 [http-nio-8080-exec-5] DEBUG c.e.Ecom.Service.ProductService - Requested to fetch product with ID: 6878d506244fd0d62e1e5aa6
+17:45:12.940 [http-nio-8080-exec-5] INFO  c.e.Ecom.Service.ProductService - Product found with ID: 6878d506244fd0d62e1e5aa6 -> Product(id=6878d506244fd0d62e1e5aa6, name=USB, description=64 GB samasung usb, price=5000.0, stock=2)

@@ -1,4 +1,4 @@
-package com.example.Ecom.Exception;
+package com.example.ecom.exception;
 
 
 import lombok.Data;

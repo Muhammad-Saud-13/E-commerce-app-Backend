@@ -1,4 +1,4 @@
-package com.example.Ecom.Exception;
+package com.example.ecom.exception;
 
 public class ProductOutOfStockException extends RuntimeException{
     public ProductOutOfStockException(String message){

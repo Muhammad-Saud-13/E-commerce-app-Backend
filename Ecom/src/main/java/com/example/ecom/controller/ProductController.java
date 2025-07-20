@@ -1,14 +1,11 @@
-package com.example.Ecom.Controller;
+package com.example.ecom.controller;
 
-import com.example.Ecom.Entity.Product;
-import com.example.Ecom.Service.ProductService;
+import com.example.ecom.entity.Product;
+import com.example.ecom.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/product")

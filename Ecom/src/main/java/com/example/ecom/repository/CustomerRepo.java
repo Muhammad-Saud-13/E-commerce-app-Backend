@@ -1,6 +1,6 @@
-package com.example.Ecom.Repositiory;
+package com.example.ecom.repository;
 
-import com.example.Ecom.Entity.Customer;
+import com.example.ecom.entity.Customer;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

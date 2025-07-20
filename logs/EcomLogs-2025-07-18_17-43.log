@@ -1,0 +1,5 @@
+17:43:55.465 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:43:55.481 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:43:55.484 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+17:43:55.654 [http-nio-8080-exec-3] DEBUG c.e.Ecom.Service.ProductService - Requested to fetch product with ID: 6878d506244fd0d62e1e5aa6
+17:43:55.805 [http-nio-8080-exec-3] INFO  c.e.Ecom.Service.ProductService - Product found with ID: 6878d506244fd0d62e1e5aa6 -> Product(id=6878d506244fd0d62e1e5aa6, name=USB, description=64 GB samasung usb, price=5000.0, stock=2)

@@ -5,10 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e07ffb9-5add-429b-87d3-2183b278c266" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/service/serviceImpl/CustomerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ecom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/EcomApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/EcomApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Controller/DiscountClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/controller/DiscountClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/EcomApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/EcomApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Exception/CustomerNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/exception/CustomerNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Exception/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/exception/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Exception/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/exception/ProductNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Exception/ProductOutOfStockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/exception/ProductOutOfStockException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/MongoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/MongoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Repositiory/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/repository/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Repositiory/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/java/com/example/ecom/repository/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/java/com/example/Ecom/Service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/main/resources/application.properties.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecom/src/test/java/com/example/Ecom/EcomApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ecom/src/test/java/com/example/ecom/EcomApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

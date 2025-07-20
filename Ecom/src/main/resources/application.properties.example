@@ -1,1 +1,1 @@
-spring.data.mongodb.uri=your_mongodb_uri_goes_here
+spring.data.mongodb.uri={mongodb_uri_goes_here}
